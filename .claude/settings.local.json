@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "mcp__claude_ai_Gmail__gmail_get_profile",
+      "mcp__powerbi-desktop-mcp__connection_operations",
+      "Bash(cd:*)",
+      "Bash(rm -rf C:/Users/Fish/projects/blitzquote-temp)",
+      "Read(//c/Users/Fish/projects/**)",
+      "Bash(npx --yes create-next-app@latest blitzquote-temp --typescript --tailwind --eslint --app --src-dir --import-alias @/* --use-npm --no-turbopack --no-react-compiler)"
+    ]
+  }
+}

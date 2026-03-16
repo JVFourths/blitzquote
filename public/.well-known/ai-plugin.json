@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "BlitzQuote",
+  "name_for_model": "blitzquote",
+  "description_for_human": "Find and book UK tradespeople instantly. Search by trade, location, and availability.",
+  "description_for_model": "Search for UK tradespeople (plumbers, electricians, builders, etc.) by trade category, postcode location, and available time slots. You can view tradesperson profiles with ratings, qualifications, and portfolio images, check their real-time availability, and book quoting appointments directly into their calendar. All dates are ISO 8601 and prices are in GBP.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://blitzquote.co.uk/api/v1/openapi.json"
+  },
+  "logo_url": "https://blitzquote.co.uk/logo.png",
+  "contact_email": "support@blitzquote.co.uk",
+  "legal_info_url": "https://blitzquote.co.uk/legal"
+}
