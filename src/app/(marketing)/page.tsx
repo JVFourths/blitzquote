@@ -1,10 +1,27 @@
+import { Navbar } from "@/components/marketing/navbar";
+import { Hero } from "@/components/marketing/hero";
+import { SocialProof } from "@/components/marketing/social-proof";
+import { HowItWorks } from "@/components/marketing/how-it-works";
+import { Pricing } from "@/components/marketing/pricing";
+import { Guarantee } from "@/components/marketing/guarantee";
+import { WaitlistForm } from "@/components/marketing/waitlist-form";
+import { FAQ } from "@/components/marketing/faq";
+import { Footer } from "@/components/marketing/footer";
+
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8">
-      <h1 className="text-4xl font-bold tracking-tight">BlitzQuote</h1>
-      <p className="mt-4 text-xl text-muted-foreground">
-        Quotes at the speed of AI.
-      </p>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <SocialProof />
+        <HowItWorks />
+        <Pricing />
+        <Guarantee />
+        <WaitlistForm />
+        <FAQ />
+      </main>
+      <Footer />
+    </>
   );
 }

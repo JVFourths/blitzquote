@@ -7,7 +7,10 @@
       "Bash(cd:*)",
       "Bash(rm -rf C:/Users/Fish/projects/blitzquote-temp)",
       "Read(//c/Users/Fish/projects/**)",
-      "Bash(npx --yes create-next-app@latest blitzquote-temp --typescript --tailwind --eslint --app --src-dir --import-alias @/* --use-npm --no-turbopack --no-react-compiler)"
+      "Bash(npx --yes create-next-app@latest blitzquote-temp --typescript --tailwind --eslint --app --src-dir --import-alias @/* --use-npm --no-turbopack --no-react-compiler)",
+      "Bash(npx kill-port:*)",
+      "WebSearch",
+      "Bash(find:*)"
     ]
   }
 }
