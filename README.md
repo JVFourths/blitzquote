@@ -4,7 +4,7 @@ Quotes at the speed of AI. Connect UK tradespeople with homeowners via AI agent 
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/OWNER/blitzquote&project-name=blitzquote&framework=nextjs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/JVFourths/blitzquote&project-name=blitzquote&framework=nextjs)
 
 Click the button above to deploy BlitzQuote to your own Vercel account.
 Once deployed, open your new site — the Setup Wizard will guide you through
